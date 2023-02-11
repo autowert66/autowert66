@@ -5,6 +5,6 @@
   </path>
   <path id="dot" d="M218.524 118.394C215.486 118.394 211.67 122.405 212.555 125.333C213.392 128.105 217.759 127.801 220.361 129.034" stroke-dasharray="19.2" stroke-dashoffset="19.2" fill="none" stroke="#ffe3f9" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
     <set id="dotSetHide" attributeName="stroke-dashoffset" value="19.2" begin="nameAnimDraw.begin" />
-    <animate id="dotAnimDraw" attributeName="stroke-dashoffset" values="19.2;0" keyTimes="0;1" dur="0.2s" begin="nameAnimDraw.begin 0.2s" fill="freeze" calcMode="spline" keySplines="0 .47 .0 .47" />
+    <animate id="dotAnimDraw" attributeName="stroke-dashoffset" values="19.2;0" keyTimes="0;1" dur="0.2s" begin="nameAnimDraw.end 0.2s" fill="freeze" calcMode="spline" keySplines="0 .47 .0 .47" />
   </path>
 </svg>
